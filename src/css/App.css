@@ -1,8 +1,11 @@
 .main-content {
   flex: 1;
-  padding: 2rem;
+  padding: 2rem 1.5rem; /* add some horizontal padding for smaller screens */
   box-sizing: border-box;
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 1.5rem; /* adds spacing between direct children */
+  max-width: 1200px; /* optional: keep content from getting too wide on large screens */
+  margin: 0 auto; /* center horizontally if max-width is set */
 }
